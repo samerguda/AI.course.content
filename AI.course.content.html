@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محتويات دورة الذكاء الاصطناعي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            direction: rtl;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: right;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>محتويات دورة الذكاء الاصطناعي</h1>
+
+<div id="course-contents">
+    <table>
+        <tr>
+            <th>رقم</th>
+            <th>الوحدة</th>
+            <th>المحتويات</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>مقدمة إلى الذكاء الاصطناعي</td>
+            <td>
+                <ul>
+                    <li>تعريف وتاريخ الذكاء الاصطناعي</li>
+                    <li>مجالات تطبيق الذكاء الاصطناعي</li>
+                    <li>الأخلاقيات والمسؤولية في الذكاء الاصطناعي</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>تعلم الآلة</td>
+            <td>
+                <ul>
+                    <li>المفاهيم الأساسية لتعلم الآلة</li>
+                    <li>أنواع تعلم الآلة (التعلم الخاضع للإشراف، التعلم غير الخاضع للإشراف، التعلم التعزيزي)</li>
+                    <li>الخوارزميات الأساسية (مثل الانحدار الخطي، أشجار القرار، الشبكات العصبية)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>التعلم العميق</td>
+            <td>
+                <ul>
+                    <li>مقدمة إلى الشبكات العصبية العميقة</li>
+                    <li>الشبكات العصبية التلافيفية (CNNs) والشبكات العصبية المتكررة (RNNs)</li>
+                    <li>تطبيقات التعلم العميق في معالجة الصور والتعرف على الكلام</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>البرمجة بلغة Python</td>
+            <td>
+                <ul>
+                    <li>أساسيات البرمجة بلغة Python</li>
+                    <li>مكتبات تعلم الآلة والتعلم العميق مثل TensorFlow، Keras، وPyTorch</li>
+                    <li>معالجة البيانات وتحليلها باستخدام مكتبات مثل NumPy وPandas</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>معالجة اللغة الطبيعية (NLP)</td>
+            <td>
+                <ul>
+                    <li>مقدمة إلى معالجة اللغة الطبيعية</li>
+                    <li>تقنيات مثل تصنيف النصوص، تحليل المشاعر، توليد النصوص</li>
+                    <li>النماذج اللغوية مثل BERT وGPT</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>رؤية الحاسوب</td>
+            <td>
+                <ul>
+                    <li>مبادئ رؤية الحاسوب</li>
+                    <li>تطبيقات مثل التعرف على الصور والفيديو</li>
+                    <li>تقنيات مثل استخراج الميزات والتعرف على الأنماط</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>مشاريع تطبيقية</td>
+            <td>
+                <ul>
+                    <li>تطوير مشاريع عملية لتطبيق المعرفة المكتسبة</li>
+                    <li>أمثلة على مشاريع مثل التنبؤ بالأسعار، توصيات المنتجات، تحليل الصور</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>الذكاء الاصطناعي في العالم الحقيقي</td>
+            <td>
+                <ul>
+                    <li>استكشاف تطبيقات الذكاء الاصطناعي في مجالات مختلفة مثل الطب، التمويل، السيارات ذاتية القيادة</li>
+                    <li>تحديات تنفيذ الذكاء الاصطناعي في العالم الحقيقي</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="buttons">
+    <button onclick="copyContents()">نسخ</button>
+    <button onclick="sendWhatsApp()">إرسال عبر واتساب</button>
+    <button onclick="printContents()">طباعة</button>
+    <button onclick="window.location.href='another-page.html'">الانتقال إلى صفحة أخرى</button>
+</div>
+
+<script>
+    function copyContents() {
+        const contents = document.getElementById('course-contents').innerText;
+        navigator.clipboard.writeText(contents).then(() => {
+            alert('تم نسخ المحتوى إلى الحافظة');
+        });
+    }
+
+    function sendWhatsApp() {
+        const contents = document.getElementById('course-contents').innerText;
+        const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(contents)}`;
+        window.open(url, '_blank');
+    }
+
+    function printContents() {
+        window.print();
+    }
+</script>
+
+</body>
+</html>
